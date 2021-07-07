@@ -7,13 +7,13 @@ public class VucutKitleEndeksi {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Boyunuzu m cinsinden giriniz :");
+        System.out.print("Boyunuzu m cinsinden giriniz :");
         boy = inp.nextDouble();
         boyKare = boy*boy;
 
 
 
-       System.out.println("Kilonuzu kg cinsinden giriniz :");
+       System.out.print("Kilonuzu kg cinsinden giriniz :");
         kilo = inp.nextInt();
 
         vke = kilo/boyKare;
